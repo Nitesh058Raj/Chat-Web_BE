@@ -45,5 +45,10 @@
     "**/dist": true
   },
   "editor.tabSize": 4,
-  "scss.validate": true
+  "scss.validate": true,
+  "[typescript][typescriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  }
 }
